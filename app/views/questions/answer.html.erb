@@ -1,0 +1,14 @@
+
+<div class = "container col-4">
+<div class="alert alert-warning" role="alert">
+  <%= params[:question] %>
+</div>
+
+<div class="alert alert-info" role="alert">
+<%= @answer %>
+</div>
+
+<div class="btn btn-outline-primary">
+ <%= link_to "Ask another question", ask_path %>
+ </div>
+</div>
